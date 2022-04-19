@@ -2,6 +2,11 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+export interface  LoginInput{
+  userId: string;
+  password: string; 
+}
+
 function App() {
   return (
     <div className="App">
