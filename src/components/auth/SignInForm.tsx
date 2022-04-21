@@ -19,12 +19,13 @@ const SignInForm = ({onSignIn}: Props) => {
   
   return (
     <>
-    <button type='submit'>홈이동</button>
+    <form onSubmit = {handleSubmit}>
     <div>아이디</div>
     <input type="text" />
     <div>비밀번호</div>
     <input type="password" />
     <button type='submit'>로그인</button>
+    </form>
     </>
   )
 }

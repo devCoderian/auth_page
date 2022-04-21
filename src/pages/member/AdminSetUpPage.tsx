@@ -1,8 +1,14 @@
 import React from 'react'
+import AdminSetupContainer from '../../containers/members/AdminSetupContainer'
+import MainLayout from '../../layout/MainLayout';
 
 const AdminSetUpPage = () => {
   return (
-    <div>AdminSetUpPage</div>
+      <>
+        <MainLayout>
+            <AdminSetupContainer />
+        </MainLayout>
+      </>
   )
 }
 
